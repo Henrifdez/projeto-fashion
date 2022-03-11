@@ -6,6 +6,7 @@
 body {
     width: 100%;
     min-width: 400px;
+    max-width: 1000px;
 }
 
 .principal {
