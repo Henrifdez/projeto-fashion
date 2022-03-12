@@ -1,109 +1,123 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    width: 1024px;
-    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 8%;
 }
 
 header {
     background-color: #081a24;
-    justify-content: space-between;
-    padding: 10px;
 }
 
-header img {
-    margin-left: 140px;
+header nav {
+    height: 50px;
+    max-width: 850px;
+    margin-left: 20%;
 }
 
-ul {
+header nav img {
+    float: left;
+    margin: 6px;
+}
+
+header nav ul {
     float: right;
-    display: flex;
-    margin: 9px;
 }
 
-ul li {
-    margin-right: 30px;
-    list-style: none;
+header nav ul li {
+    margin: 0 10px;
+    display: inline-block;
 }
 
-ul li a {
-    color: white;
+header nav ul li a {
+    padding: 5px 20px;
+    color: #225559;
+    text-transform: uppercase;
     text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border: 1px solid transparent;
+}
+
+header nav ul li a:hover {
+    border: 1px solid #225559;
+}
+
+header .header-slider img {
+    width: 100%;
+}
+
+.secao-portfolio {
+    margin: 8%;
+    text-align: center;
+}
+
+.secao-portfolio h1 {
+    font-size: 2.5em;
+}
+
+.secao-portfolio p {
+    font-size: 1em;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.secao-galeria {
+    text-align: center;
+}
+
+.secao-galeria article {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.secao-galeria article h3 {
     text-transform: uppercase;
-}
-
-#sec1 {
-    text-align: center;
-    margin-top: 60px;
-}
-
-#sec1 h1 {
-    margin-bottom: 30px;
-    font-size: 40px;
-    color: #051822;
-}
-
-#sec1 p {
-    width: 600px;
-    margin: 40px auto;
-    font-size: 17px;
-}
-
-#sec2 {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 80px;
-}
-
-#sec2 h3 {
-    margin: 10px;
-    text-align: center;
-    color: rgba(0, 0, 70, 0.925);
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-#sec2 p {
-    text-align: center;
     font-weight: bold;
-    font-size: 16px;
+    color: #1b3e50;
 }
 
-#sec3 {
+.secao-galeria article p {
+    color: #9a9a9c;
+}
+
+.secao-sobre {
     background: #003d52 url(img/bg_detalhe.png) bottom right no-repeat;
-    height: 400px;
-    padding: 8%;
-    margin: 3%;
     color: white;
+    padding: 8%;
 }
 
-#sec3 h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-
-#sec3 p {
-    font-size: 18px;
-    margin: 0 157px 0 0;
-}
-
-#sec4 {
-    color: #003d52;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+.secao-sobre h2 {
+    font-size: 3em;
+    font-weight: normal;
     text-transform: uppercase;
-    margin: 50px 0;
+}
+
+.secao-sobre p {
+    width: 55%;
+    font-size: 1em;
+    line-height: 25px;
+}
+
+.secao-contato {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.secao-contato h3 {
+    color: #003d52;
+    text-transform: uppercase;
+    padding: 5%;
 }
 
 footer {
+    background-color: #001018;
     text-align: center;
-    background-color: #003d52;
-    color: white;
-    height: 19px;
-    width: 100%;
+    margin-top: 5%;
+    padding: 1px;
+}
+
+footer p {
+    padding: 10px;
+    letter-spacing: 5px;
+    color: #4e8a9b;
+    font-size: 12px;
 }
